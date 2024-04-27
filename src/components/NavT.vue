@@ -7,11 +7,6 @@ import { RouterLink } from 'vue-router'
     <div class="outer">
       <div class="inner">
         <ul>
-          <!-- <a href="/src/views/HomeView.vue">Home</a>
-          <a href="/src/views/SecView.vue">Top100</a>
-          <a href="">Training</a>
-          <a href="">Synthesis</a> -->
-
           <RouterLink to="/">Home</RouterLink>
           <RouterLink to="/sec">Top100</RouterLink>
           <a href="">Training</a>

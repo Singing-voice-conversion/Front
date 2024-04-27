@@ -1,8 +1,8 @@
-.ex01 .inner {
+.inner {
   position: relative;
 }
 
-.ex01 .header {
+.header {
   height:28px;
   display: flex;
   justify-content: space-between;
@@ -11,13 +11,13 @@
   padding: 20px 0px;
 }
 
-.ex01 .header strong {
+.header strong {
   font-weight: 700;
   font-size: 20px;
   cursor: pointer;
 }
 
-.ex01 .header button {
+.header button {
   font-size: 16px;
   color: #7E30E1;
   line-height: 20px;
@@ -29,17 +29,17 @@
   cursor: pointer;
 }
 
-.ex01 .header strong:hover,
-.ex01 .header button:hover {
+.header strong:hover,
+.header button:hover {
   opacity: 0.5;
 }
 
-.ex01 .banner {
+.banner {
   width: 100%;
   height:300px;
 }
 
-.ex01 .banner_box {
+.banner_box {
   width: 100%;
   height:100%;
 
@@ -47,7 +47,7 @@
   position: relative;
 }
 
-.ex01 .banner .frame {
+.banner .frame {
   width:100%;
   height:100%;
 
@@ -55,12 +55,12 @@
   left:0px;
 }
 
-.ex01 .banner ul {
+.banner ul {
   display: flex;
 }
 
 
-.ex01 .banner li {
+.banner li {
   background-color: white;
   width:269px;
 
@@ -73,7 +73,7 @@
   list-style-type: none;
 }
 
-.ex01 .banner li .img_box {
+.banner li .img_box {
   width:100%;
   height:180px;
 
@@ -83,7 +83,7 @@
   overflow: hidden;
 }
 
-.ex01 .banner li .desc {
+.banner li .desc {
   width:100%;
   height:46px;
   margin-top:10px;
@@ -91,7 +91,7 @@
   color: rgb(47, 52, 56);
 }
 
-.ex01 .banner li .desc > :first-child {
+.banner li .desc > :first-child {
   font-size: 14px;
   line-height: 20px;
 
@@ -101,14 +101,14 @@
   white-space: nowrap;
 }
 
-.ex01 .banner li .desc > :last-child {
+.banner li .desc > :last-child {
   margin-top: 2px;
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
 }
 
-.ex01 .arrow-box-left {
+.arrow-box-left {
   display: none;
 }
 
@@ -166,11 +166,11 @@
   background-color: #F7F9FA;
 }
 
-.banner--box .arrow-box {
+.banner_box .arrow-box {
   display: none;
 }
 
-.banner--box:hover > .arrow-box {
+.banner_box:hover > .arrow-box {
   display: block;
 }
 

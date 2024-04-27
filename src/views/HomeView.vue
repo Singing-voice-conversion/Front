@@ -5,7 +5,7 @@ import NavT from '/src/components/NavT.vue';
 import MainBannerT from '/src/components/MainBannerT.vue';
 import SynthesizedSongBanner from '/src/components/home/SynthesizedSongBanner.vue';
 import LikedSongBanner from '/src/components/home/LikedSongBanner.vue';
-import TrainedSongBanner from '/src/components/home/TrainedSongBanner.vue';
+import TrainedVoiceBanner from '/src/components/home/TrainedVoiceBanner.vue';
 </script>
 
 <template>
@@ -18,7 +18,7 @@ import TrainedSongBanner from '/src/components/home/TrainedSongBanner.vue';
 <MainBannerT/>
 <SynthesizedSongBanner/>
 <LikedSongBanner/>
-<TrainedSongBanner/>
+<TrainedVoiceBanner/>
 </main>
 
 <FooterT/>

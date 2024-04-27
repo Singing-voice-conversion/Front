@@ -7,14 +7,25 @@ import NavT from '/src/components/NavT.vue';
 </script>
 
 <template>
-
-
 <HeaderT/>
 <NavT/>
 
 <main>
-  세컨드 페이지다
-  <div :class="special">색상바꾸기</div>
+  <section class="main_img">
+    <div class="outer">
+      <div class="inner">
+
+        <div class="img-box">
+          <h1>목소리 훈련시키기</h1>
+          <span>학습시키고 싶은 음성 파일을 업로드하세요</span>
+          <img src="/src/assets/img/training/1.jpg">
+        </div>
+        
+        <a href="training2.html"><div class="start">시작하기</div></a>
+    
+      </div>
+    </div>
+  </section>
 </main>
 
 <FooterT/>

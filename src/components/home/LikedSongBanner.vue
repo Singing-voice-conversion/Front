@@ -1,5 +1,5 @@
 <template>
-  <section class="ex01">
+  <section class="likedSongBanner">
     <div class="outer">
         <div class="inner">
 
@@ -101,9 +101,9 @@ import $ from 'jquery';
 
 export default {
   mounted() {
-    let $exhibitionImgs = $(".ex01 .banner img");
+    let $imgs = $(".likedSongBanner .banner img");
 
-    $exhibitionImgs.each((index, item)=>{
+    $imgs.each((index, item)=>{
         $(item).hover(()=>{
             $(item).css("transform", "scale(1.05)");
             $(item).css("transition", "0.2s ease");
@@ -115,15 +115,15 @@ export default {
     });
 
     new Banner(
-      $(".ex01 .banner .frame"),
-      $(".ex01 .banner li"),
-      $(".ex01 .arrow-box-left"),
-      $(".ex01 .arrow-box-right")
+      $(".likedSongBanner .banner .frame"),
+      $(".likedSongBanner .banner li"),
+      $(".likedSongBanner .arrow-box-left"),
+      $(".likedSongBanner .arrow-box-right")
     );
   },
 }
 </script>
 
-<style>
+<style scoped>
 @import '/src/assets/css/banner2.css'
 </style>

@@ -5,13 +5,13 @@ import MainBanner from '/src/assets/js/MainBanner';
 export default {
   mounted() {
     const mainBanner = new MainBanner(
-      $(".banner--box"),
-      $(".banner--frame"),
-      $(".banner ul"),
-      $(".banner li"),
+      $(".main-banner .banner--box"),
+      $(".main-banner .banner--frame"),
+      $(".main-banner ul"),
+      $(".main-banner li"),
 
-      $(".banner .arrow-box-left"),
-      $(".banner .arrow-box-right")
+      $(".main-banner .arrow-box-left"),
+      $(".main-banner .arrow-box-right")
     );
 
     mainBanner.autoSlide();
@@ -20,7 +20,7 @@ export default {
 </script>
 
 <template>
-  <section class="banner">
+  <section class="main-banner">
     <div class="outer">
       <div class="inner">
 
@@ -66,7 +66,7 @@ export default {
   overflow:hidden;
 }
 
-.banner ul {
+.main-banner ul {
   height:100%;
 
   display: flex;
@@ -76,7 +76,7 @@ export default {
   list-style: none;
 }
 
-.banner li {
+.main-banner li {
   height:100%;
   width: 1100px;
 
@@ -85,31 +85,31 @@ export default {
   overflow: hidden;
 }
 
-.banner img {
+.main-banner img {
   height:100%;
 }
 
-.banner ul :nth-child(1) li {
+.main-banner ul :nth-child(1) li {
   background-color: red;
 }
 
-.banner ul :nth-child(2) li {
+.main-banner ul :nth-child(2) li {
   background-color: orange;
 }
 
-.banner ul :nth-child(3) li {
+.main-banner ul :nth-child(3) li {
   background-color: yellow;
 }
 
-.banner ul :nth-child(4) li {
+.main-banner ul :nth-child(4) li {
   background-color: green;
 }
 
-.banner ul :nth-child(5) li {
+.main-banner ul :nth-child(5) li {
   background-color: blue;
 }
 
-.banner ul :nth-child(6) li {
+.main-banner ul :nth-child(6) li {
   background-color: purple;
 }
 

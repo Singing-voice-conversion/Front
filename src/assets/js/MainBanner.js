@@ -1,6 +1,5 @@
 export default class MainBanner {
   constructor($box, $frame, $ul, $li, $arrowLeft, $arrowRight) {
-      
       this.$box = $box;
       this.$ul = $ul;
       this.$arrowLeft = $arrowLeft;
@@ -8,7 +7,6 @@ export default class MainBanner {
 
       this.IMG_WIDTH = $frame.width();
       this.IMG_LENGTH = $li.length;
-      console.log(this.IMG_LENGTH);
 
       this.currentIdx = 0;
 

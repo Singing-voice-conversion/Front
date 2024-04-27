@@ -1,7 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '/src/views/HomeView.vue'
 import LogInView from '/src/views/LogInView.vue'
-import SecView from '/src/views/SecView.vue'
+
+import TrainingView from '/src/views/TrainingView.vue'
+import SynthesisView from '/src/views/SynthesisView.vue'
+
+import TrainingCreateView from '/src/views/TrainingCreateView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -18,9 +22,21 @@ const router = createRouter({
     }
     ,
     {
-      path: '/sec',
-      name: 'sec',
-      component: SecView
+      path: '/training',
+      name: 'training',
+      component: TrainingView
+    }
+    ,
+    {
+      path: '/synthesis',
+      name: 'synthesis',
+      component: SynthesisView
+    }
+    ,
+    {
+      path: '/training/create',
+      name: 'trainingCreate',
+      component: TrainingCreateView
     }
     // {
     //   path: '/about',

@@ -5,7 +5,7 @@ export default class Banner {
         this.$arrowLeft = $arrowLeft;
         this.$arrowRight = $arrowRight;
 
-        this.IMG_WIDTH = ($imgs.width() + Number($imgs.css("margin-right").slice(0,-2)));
+        this.IMG_WIDTH = $imgs.width() + Number($imgs.css("margin-right").slice(0,-2));
 
         $arrowLeft.on("click", () => {
             this.prevImg();

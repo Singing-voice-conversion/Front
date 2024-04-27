@@ -2,16 +2,26 @@
 import { RouterLink } from 'vue-router'
 </script>
 
+<script>
+export default {
+  // mounted() {
+  //   // console.log(this.$route.path);
+  //   let navMenu = document.querySelector(`nav ul a[name='${this.$route.name}']`);
+  //   navMenu.setAttribute("style", "color:#7E30E1");
+  // },
+
+}
+</script>
+
 <template>
   <nav>
     <div class="outer">
       <div class="inner">
         <ul>
-          <RouterLink to="/">Home</RouterLink>
-          <RouterLink to="/sec">Top100</RouterLink>
-          <a href="">Training</a>
-          <a href="">Synthesis</a>
-
+          <RouterLink to="/" name="home">Home</RouterLink>
+          <RouterLink to="/" name="top100">Top100</RouterLink>
+          <RouterLink to="/training" name="training">Training</RouterLink>
+          <RouterLink to="/synthesis" name="synthesis">Synthesis</RouterLink>
         </ul>
       </div>
     </div>
@@ -22,6 +32,7 @@ import { RouterLink } from 'vue-router'
 .outer {
   border-bottom: 1px solid #EAEDEF;
   background-color: #FFFFFF;
+  margin-bottom: 10px;
 }
 
 .inner {
@@ -44,12 +55,5 @@ nav ul a {
 
 nav ul a:hover {
   color:#7E30E1;
-}
-
-nav ul :first-child {
-  color:#7E30E1;
-
-  /* after로 넣을 것. 밑줄이 밖으로 빠져나옴 */
-  border-bottom: 3px solid #7E30E1;
 }
 </style>

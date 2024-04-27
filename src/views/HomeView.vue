@@ -9,8 +9,6 @@ import TrainedVoiceBanner from '/src/components/home/TrainedVoiceBanner.vue';
 </script>
 
 <template>
-
-
 <HeaderT/>
 <NavT/>
 

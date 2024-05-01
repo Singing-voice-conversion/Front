@@ -14,21 +14,21 @@ import Pagination from '/src/assets/js/Pagination';
     <div class="outer">
       <div class="inner">
         
-        <div class="title">TOP 100</div>
+        <div class="title">내가 합성한 노래 리스트</div>
 
         <div class="box">
-          <div>순위</div>
+          <div>No.</div>
           <div>곡 제목</div>
           <div>원곡 가수</div>
           <div>학습된 목소리</div>
-          <div>만든 사람</div>
+          <div>만든 날짜</div>
           <div>좋아요 개수</div>
           <div>좋아요</div>
           <div>듣기</div>
         </div>
 
-        <div id="song_list--content"></div>
-        <div id="song_list--pagination"></div>
+        <div id="synthesizedSong_list--content"></div>
+        <div id="synthesizedSong_list--pagination"></div>
 
       </div>
     </div>
@@ -39,19 +39,13 @@ import Pagination from '/src/assets/js/Pagination';
 
 <script>
 export default {
-  data() {
-    return {
-      heart_icon: 'heart_icon'
-    }
-  },
   mounted() {
 
     new Pagination(
-      'song_list--content',
-      'song_list--pagination',
+      'synthesizedSong_list--content',
+      'synthesizedSong_list--pagination',
       createItems()
     );
-
 
     function createItems() {
       const items = [];
@@ -62,7 +56,7 @@ export default {
           <div>곡 제목 ${i+1}</div>
           <div>원곡가수</div>
           <div>아이유</div>
-          <div>길동이다</div>
+          <div>2024-05-01</div>
           <div>3</div>
           <div><span class="material-icons heart_icon" data-flag="0">favorite_border</span></div>
           <div><span class="material-icons play_arrow_icon">play_arrow</span></div>

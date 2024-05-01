@@ -14,10 +14,10 @@ import Pagination from '/src/assets/js/Pagination';
     <div class="outer">
       <div class="inner">
         
-        <div class="title">TOP 100</div>
+        <div class="title">내가 좋아요한 노래 리스트</div>
 
         <div class="box">
-          <div>순위</div>
+          <div>No.</div>
           <div>곡 제목</div>
           <div>원곡 가수</div>
           <div>학습된 목소리</div>
@@ -84,11 +84,14 @@ export default {
   margin-bottom: 10px;
 }
 
-.top100 .box {
+.top100 .box,
+#song_list--content {
   display: grid;
   grid-template-columns: 0.5fr 2.5fr 1fr 1fr 1fr 0.8fr 0.5fr 0.5fr;
   row-gap: 10px;
+}
 
+.top100 .box {
   height:40px;
   margin-bottom:10px;
   
@@ -101,4 +104,59 @@ export default {
   font-weight: 700;
   font-size: 18px;
 }
+
+.heart_icon,
+.play_arrow_icon {
+  color: #7E30E1;
+  cursor: pointer;
+}
+
+
+#song_list--content div {
+  text-align: center;
+}
+
+
+#song_list--pagination {
+  display: flex;
+  justify-content: center;
+
+  margin: 30px 0 50px 0;
+}
+
+#song_list--pagination .page-btn {
+  margin: 0 3px;
+  width: 30px;
+  height: 30px;
+
+  line-height: 30px;
+  text-align: center;
+
+  font-size: 15px;
+  border:1px solid #7E30E1;
+  background-color: white;
+  color: #332C5C;
+
+  cursor: pointer;
+}
+
+#song_list--pagination .prev-btn,
+#song_list--pagination .next-btn {
+  margin: 0 5px;
+  padding:0 10px;
+
+  height: 30px;
+
+  line-height: 30px;
+  text-align: center;
+
+  font-size: 15px;
+
+  color:#332C5C;
+  background-color: #F5F3FF;
+  border: 1px solid #7E30E1;
+
+  cursor: pointer;
+}
+
 </style>

@@ -2,10 +2,17 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '/src/views/HomeView.vue'
 import LogInView from '/src/views/LogInView.vue'
 
+// nav 메뉴들
 import Top100View from '/src/views/Top100View.vue'
 import TrainingView from '/src/views/TrainingView.vue'
 import SynthesisView from '/src/views/SynthesisView.vue'
 
+// 소베너
+import LikedSongView from '/src/views/LikedSongView.vue'
+import SynthesizedSongView from '/src/views/SynthesizedSongView.vue'
+import TrainedVoiceView from '/src/views/TrainedVoiceView.vue'
+
+// 훈련, 추론 페이지
 import TrainingCreateView from '/src/views/TrainingCreateView.vue'
 
 const router = createRouter({
@@ -40,7 +47,24 @@ const router = createRouter({
       path: '/training/create',
       name: 'trainingCreate',
       component: TrainingCreateView
+    },
+    {
+      path: '/likedSong',
+      name: 'likedSong',
+      component: LikedSongView
+    },
+    {
+      path: '/synthesizedSong',
+      name: 'synthesizedSong',
+      component: SynthesizedSongView
+    },
+    {
+      path: '/trainedVoice',
+      name: 'trainedVoice',
+      component: TrainedVoiceView
     }
+
+    
     // {
     //   path: '/about',
     //   name: 'about',

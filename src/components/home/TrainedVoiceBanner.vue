@@ -1,3 +1,10 @@
+<script setup>
+import { RouterLink } from 'vue-router';
+
+import Banner from '/src/assets/js/Banner';
+import $ from 'jquery';
+</script>
+
 <template>
   <section class="trainedVoiceBanner">
     <div class="outer">
@@ -5,7 +12,7 @@
 
           <div class="header">
               <strong>내가 학습시킨 목소리 리스트</strong>
-              <button type="button">더보기</button>
+              <RouterLink to="/trainedVoice"><button type="button">더보기</button></RouterLink>
           </div>
 
           <div class="banner">
@@ -96,9 +103,6 @@
 </template>
 
 <script>
-import Banner from '/src/assets/js/Banner';
-import $ from 'jquery';
-
 export default {
   mounted() {
     let $imgs = $(".trainedVoiceBanner .banner img");

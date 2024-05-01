@@ -1,5 +1,5 @@
 
-#song_list--content {
+#synthesizedSong_list--content {
   display: grid;
   grid-template-columns: 0.5fr 2.5fr 1fr 1fr 1fr 0.8fr 0.5fr 0.5fr;
   row-gap: 10px;
@@ -12,19 +12,19 @@
 }
 
 
-#song_list--content div {
+#synthesizedSong_list--content div {
   text-align: center;
 }
 
 
-#song_list--pagination {
+#synthesizedSong_list--pagination {
   display: flex;
   justify-content: center;
 
   margin: 30px 0 50px 0;
 }
 
-#song_list--pagination .page-btn {
+#synthesizedSong_list--pagination .page-btn {
   margin: 0 3px;
   width: 30px;
   height: 30px;
@@ -40,8 +40,8 @@
   cursor: pointer;
 }
 
-#song_list--pagination .prev-btn,
-#song_list--pagination .next-btn {
+#synthesizedSong_list--pagination .prev-btn,
+#synthesizedSong_list--pagination .next-btn {
   margin: 0 5px;
   padding:0 10px;
 

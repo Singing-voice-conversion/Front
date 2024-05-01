@@ -27,10 +27,10 @@ export default {
         <div class="banner--box">
             <div class="banner--frame">
                 <ul>
-                    <a href="#"><li><img src="https://media.springernature.com/lw725/springer-cms/rest/v1/content/15238122/data/v25"></li></a>
-                    <a href="#"><li><img src="https://media.springernature.com/lw725/springer-cms/rest/v1/content/15238122/data/v25"></li></a>
-                    <a href="#"><li><img src="https://media.springernature.com/lw725/springer-cms/rest/v1/content/15238122/data/v25"></li></a>
-                    <a href="#"><li><img src="https://media.springernature.com/lw725/springer-cms/rest/v1/content/15238122/data/v25"></li></a>
+                    <a href="#"><li><img src="/src/assets/img/home/MainBanner/1.png"></li></a>
+                    <a href="#"><li><img src="/src/assets/img/home/MainBanner/2.png"></li></a>
+                    <a href="#"><li><img src="/src/assets/img/home/MainBanner/3.png"></li></a>
+                    <a href="#"><li><img src="/src/assets/img/home/MainBanner/4.png"></li></a>
                 </ul>
             </div>
 

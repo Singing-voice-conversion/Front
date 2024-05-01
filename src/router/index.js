@@ -14,6 +14,8 @@ import TrainedVoiceView from '/src/views/TrainedVoiceView.vue'
 
 // 훈련, 추론 페이지
 import TrainingCreateView from '/src/views/TrainingCreateView.vue'
+import SynthesisCreateStep1View from '/src/views/SynthesisCreateStep1View.vue'
+import SynthesisCreateStep2View from '/src/views/SynthesisCreateStep2View.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -47,6 +49,16 @@ const router = createRouter({
       path: '/training/create',
       name: 'trainingCreate',
       component: TrainingCreateView
+    },
+    {
+      path: '/synthesis/create/step1',
+      name: 'synthesisCreateStep1',
+      component: SynthesisCreateStep1View
+    },
+    {
+      path: '/synthesis/create/step2',
+      name: 'synthesisCreateStep2',
+      component: SynthesisCreateStep2View
     },
     {
       path: '/likedSong',

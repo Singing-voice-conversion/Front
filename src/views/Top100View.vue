@@ -39,19 +39,12 @@ import Pagination from '/src/assets/js/Pagination';
 
 <script>
 export default {
-  data() {
-    return {
-      heart_icon: 'heart_icon'
-    }
-  },
   mounted() {
-
     new Pagination(
       'song_list--content',
       'song_list--pagination',
       createItems()
     );
-
 
     function createItems() {
       const items = [];

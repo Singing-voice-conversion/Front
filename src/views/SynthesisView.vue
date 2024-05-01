@@ -20,7 +20,7 @@ import { RouterLink } from 'vue-router';
           <img src="/src/assets/img/training/1.jpg">
         </div>
         
-        <RouterLink to="/synthesis/create"><div class="start">시작하기</div></RouterLink>
+        <RouterLink to="/synthesis/create/step1"><div class="start">시작하기</div></RouterLink>
     
       </div>
     </div>

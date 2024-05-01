@@ -19,7 +19,7 @@ export default {
       <div class="inner">
         <ul>
           <RouterLink to="/" name="home">Home</RouterLink>
-          <RouterLink to="/" name="top100">Top100</RouterLink>
+          <RouterLink to="/top100" name="top100">Top100</RouterLink>
           <RouterLink to="/training" name="training">Training</RouterLink>
           <RouterLink to="/synthesis" name="synthesis">Synthesis</RouterLink>
         </ul>

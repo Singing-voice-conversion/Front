@@ -1,16 +1,26 @@
-# Sing-To-Me Front-end
+<div align="center">
 
-### Contents
-1. Members
-2. Introduction
-3. Screen Planning (Figma)
-4. Screen Composition
-5. Used Languages, Libraries, Frameworks, Tools
+# singtome: Front-end
 
-## **1. Members**
+*introducing the Front-end project used in the SINGTOME project.*
 
-- **Kim Daeun**: Implemented login page, main page, synthesis page, and top100 page.
-- **Kim Taeyeop**: Implemented song playback bar and song playback.
+[![Language](https://img.shields.io/badge/Language-HTML%20%7C%20CSS%20%7C%20JavaScript-blueviolet)](#) [![Framework](https://img.shields.io/badge/Framework-Vue.js-green)](#) [![Tools](https://img.shields.io/badge/Tools-VScode-informational)](#)
+
+</div>
+
+## Contents
+1. [Members](#1-members)
+2. [Introduction](#2-introduction)
+3. [Screen Planning (Figma)](#3-screen-planning-figma)
+4. [Screen Composition](#4-screen-composition)
+5. [Used Languages, Libraries, Frameworks, Tools](#5-used-languages-libraries-frameworks-tools)
+
+## 1. Members
+
+| Name          | Contributions                                                   |
+|---------------|-----------------------------------------------------------------|
+| Kim Daeun     | Implemented login page, main page, synthesis page, and top100 page. |
+| Kim Taeyeop   | Implemented song playback bar and song playback.               |
 
 ## **2. Introduction**
 

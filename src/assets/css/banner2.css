@@ -81,6 +81,15 @@
 
   display: flex;
   overflow: hidden;
+
+  position: relative;
+}
+
+.banner li .img_box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 이미지가 div를 채우도록 설정 */
+  object-position: center; /* 이미지가 중앙에 위치하도록 설정 */
 }
 
 .banner li .desc {

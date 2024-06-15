@@ -29,8 +29,6 @@ export default {
                 <ul>
                     <a href="#"><li><img src="/src/assets/img/home/MainBanner/1.png"></li></a>
                     <a href="#"><li><img src="/src/assets/img/home/MainBanner/2.png"></li></a>
-                    <a href="#"><li><img src="/src/assets/img/home/MainBanner/3.png"></li></a>
-                    <a href="#"><li><img src="/src/assets/img/home/MainBanner/4.png"></li></a>
                 </ul>
             </div>
 
@@ -89,6 +87,7 @@ export default {
   height:100%;
 }
 
+/*
 .main-banner ul :nth-child(1) li {
   background-color: red;
 }
@@ -112,6 +111,7 @@ export default {
 .main-banner ul :nth-child(6) li {
   background-color: purple;
 }
+*/
 
 /* ======================================================== */
 
@@ -174,4 +174,5 @@ export default {
 .banner--box:hover > .arrow-box {
   display: block;
 }
+
 </style>

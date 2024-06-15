@@ -43,6 +43,6 @@ export default class MainBanner {
   autoSlide() {
       this.interval = setInterval(()=>{
           this.nextImg();
-      }, 2000);
+      }, 5000);
   }
 }

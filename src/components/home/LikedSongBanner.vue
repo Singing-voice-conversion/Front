@@ -24,24 +24,24 @@ import $ from 'jquery';
                           <li>
                               <a href="#">
                                   <div class="img_box">
-                                      <img src="\src\assets\img\home\SynthesizedSongBanner\1.avif">
+                                      <img src="\src\assets\img\home\SynthesizedSongBanner\15.jpg">
                                   </div>
 
                                   <div class="desc">
-                                      <p>전시, 반품, 스크래치 득템의 기회!</p>
-                                      <p>빠른 품절! 리퍼마켓 ~90%</p>
+                                      <p>Charlie puth</p>
+                                      <p>Someday</p>
                                   </div>
                               </a>
                           </li>
                               <li>
                                   <a href="#">
                                   <div class="img_box">
-                                      <img src="\src\assets\img\home\SynthesizedSongBanner\2.avif">
+                                      <img src="\src\assets\img\home\SynthesizedSongBanner\16.jpg">
                                   </div>
 
                                   <div class="desc">
-                                      <p>전상품 무료배송, 요일마다 바뀌는 파격특가 장보기!</p>
-                                      <p>오픈런딜</p>
+                                      <p>이무진</p>
+                                      <p>Ready to love</p>
                                   </div>
                               </a>
                               </li>
@@ -49,12 +49,12 @@ import $ from 'jquery';
                               <li>
                                   <a href="#">
                                   <div class="img_box">
-                                      <img src="\src\assets\img\home\SynthesizedSongBanner\3.avif">
+                                      <img src="\src\assets\img\home\SynthesizedSongBanner\17.jpg">
                                   </div>
 
                                   <div class="desc">
-                                      <p>오늘의집 큐레이션 편집샵 오!굿즈</p>
-                                      <p>오직 여기서만, O!Goods</p>
+                                      <p>도리 (dori)</p>
+                                      <p>Summer hate</p>
                                   </div>
                               </a>
                               </li>
@@ -62,12 +62,12 @@ import $ from 'jquery';
                               <li>
                                   <a href="#">
                                   <div class="img_box">
-                                      <img src="\src\assets\img\home\SynthesizedSongBanner\4.avif">
+                                      <img src="\src\assets\img\home\SynthesizedSongBanner\18.jpg">
                                   </div>
 
                                   <div class="desc">
-                                      <p>최대 25만원 SAVE</p>
-                                      <p>0원한 특급패스, 오늘의집 배송!</p>
+                                      <p>아이유</p>
+                                      <p>Hype Boy</p>
                                   </div>
                               </a>
                               </li>
